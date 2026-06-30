@@ -90,3 +90,9 @@ function text(value, x, y, size = 18, color = C.white, weight = "400", align = "
   ctx.textBaseline = "top";
   ctx.fillText(value, x, y);
 }
+
+function formatTime(seconds) {
+  const minutes = Math.floor(seconds / 60);
+  const secs = Math.floor(seconds % 60);
+  return `${String(minutes).padStart(2, "0")}:${String(secs).padStart(2, "0")}`;
+}
