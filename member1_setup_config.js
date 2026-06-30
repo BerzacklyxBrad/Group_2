@@ -25,3 +25,25 @@ const DETECTION_DISTANCE = 300;
 const LANE_CHANGE_COOLDOWN = 120;
 const CROSSING_CLEAR_SPEED = 12;
 const CROSSING_CLEAR_DISTANCE = 90;
+
+const C = {
+  bg: "#080a0d",
+  road: "#1c1f23",
+  roadShadow: "#121417",
+  panel: "#161c24",
+  panel2: "#1c242e",
+  line: "#3e4c5c",
+  white: "#f0f4f8",
+  muted: "#9cabb8",
+  yellow: "#ffc72c",
+  matatuYellow: "#fad63b",
+  matatuBlue: "#2d7ddd",
+  cyan: "#58dceb",
+  green: "#36d377",
+  red: "#ef4444",
+  amber: "#ffab2e",
+  purple: "#9c76ff",
+  black: "#080a0d"
+};
+
+const lanes = ["LEFT", "CENTER", "RIGHT"];
