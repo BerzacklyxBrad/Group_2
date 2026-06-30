@@ -82,3 +82,11 @@ function circle(x, y, r, fill) {
   ctx.fillStyle = fill;
   ctx.fill();
 }
+
+function text(value, x, y, size = 18, color = C.white, weight = "400", align = "left") {
+  ctx.font = `${weight} ${size}px Consolas, monospace`;
+  ctx.fillStyle = color;
+  ctx.textAlign = align;
+  ctx.textBaseline = "top";
+  ctx.fillText(value, x, y);
+}
